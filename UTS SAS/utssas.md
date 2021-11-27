@@ -149,3 +149,68 @@ Soal UTS dapat diaskes [disini.](https://yptorid-my.sharepoint.com/:w:/g/persona
 
          ![](asset/35.jpg)
 
+## Instalasi Active Directory Domain Server
+
+Ubah nama computer di windows powershell dengan mengetik > “rename-computer -Newname Server2022”
+
+![](asset/36.jpg)
+
+Kemudian masuk ke server manager pilih menu manage 
+
+![](asset/37.jpg)
+
+Kemudian pilih Add Roles and Features dan next
+
+![](asset/38.jpg)
+
+Pilih Role-Based or feature-based installation kemudian next
+
+![](asset/39.jpg)
+
+Setelah itu pilih select a server from the server pool
+
+![](asset/40.jpg)
+
+Lalu pilih active directory domain server
+
+![](asset/41.jpg)
+
+Kemudain klik add features
+
+![](asset/42.jpg)
+
+Kemudian ke features lalu centang Group Policy Management dan next
+
+![](asset/43.jpg)
+
+Kemudian install
+
+![](asset/44.jpg)
+
+## Installasi DNS
+
+Kemudian install DNS server sama seperti menginstal domain 
+
+![](asset/49.jpg)
+![](asset/50.jpg)
+
+## Installasi Net Framework 3.5
+
+Setelah selesai install NET Framework 3.5
+
+![](asset/51.jpg)
+
+## Promote Server To A Domain
+
+- Pilih network setting
+  
+    ![](asset/45.jpg)
+- Pilih ip
+  
+    ![](asset/46.jpg)
+- Setting ip static dengan ip baru
+  
+    ![](asset/47.jpg)
+- Proses setting ip static berhasil
+  
+    ![](asset/48.jpg)
